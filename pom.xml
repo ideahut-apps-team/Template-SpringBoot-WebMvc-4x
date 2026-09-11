@@ -11,11 +11,10 @@
 	<name>Template-SpringBoot-WebMvc-4x</name>
 	<description>Template Springboot WebMvc 4x</description>
 
-	<!-- SUPPORT VERSI: 4.1.0 - 4.1.1 -->
-    <parent>
+	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.1.0</version>
+		<version>4.1.1</version>
 		<relativePath/>
 	</parent>
 	
@@ -36,7 +35,7 @@
         <version.commons-io>2.21.0</version.commons-io>
         <version.fory>1.6.1</version.fory>
         <version.hessian>4.0.66</version.hessian>
-        <version.ideahut>26.08.26</version.ideahut>
+        <version.ideahut>26.09.09</version.ideahut>
         <version.jakarta.mail>2.0.2</version.jakarta.mail>
         <version.jasperreports>6.21.5</version.jasperreports>
         <version.jbcrypt>0.4</version.jbcrypt>
@@ -295,13 +294,20 @@
 		</dependency>
 		-->
 
+		
+		<!--
+		 +++++++++++++++++
+		 +               +
+		 +  JDBC DRIVER  +
+		 +               +
+		 +++++++++++++++++ 
+		-->
 
 		<!-- MYSQL -->
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 		</dependency>
-
 
 		<!-- POSTGRESQL -->
 		<!--
@@ -311,7 +317,6 @@
 		</dependency>
 		-->
 
-
 		<!-- SQL SERVER -->
 		<!--
 		<dependency>
@@ -319,7 +324,6 @@
 			<artifactId>mssql-jdbc</artifactId>
 		</dependency>
 		-->
-
 
 		<!-- ORACLE -->
 		<!--
@@ -329,7 +333,6 @@
 		</dependency>
 		-->
 
-
 		<!-- MARIADB -->
 		<!--
 		<dependency>
@@ -337,7 +340,6 @@
   			<artifactId>mariadb-java-client</artifactId>
 		</dependency>
 		-->
-
 
 		<!-- DB2 -->
 		<!--
@@ -347,7 +349,6 @@
 		</dependency>
 		-->
 
-
 		<!-- H2 -->
 		<!--
 		<dependency>
@@ -356,7 +357,6 @@
 		</dependency>
 		-->
 
-
 		<!-- HSQLDB -->
 		<!--
 		<dependency>
@@ -364,7 +364,6 @@
 		    <artifactId>hsqldb</artifactId>
 		</dependency>
 		-->
-
 
 		<!-- DERBY -->
 		<!--
@@ -470,28 +469,6 @@
 					</archive>
 				</configuration>
 			</plugin>
-			<!--
-			<plugin>
-			    <groupId>org.hibernate.orm.tooling</groupId>
-			    <artifactId>hibernate-enhance-maven-plugin</artifactId>
-			    <version>${hibernate.version}</version>
-			    <version>6.6.56.Final</version>
-			    <executions>
-			        <execution>
-			            <configuration>
-			                <enableLazyInitialization>true</enableLazyInitialization>
-			                <enableDirtyTracking>true</enableDirtyTracking>
-			                <enableAssociationManagement>true</enableAssociationManagement>
-			                <enableExtendedEnhancement>false</enableExtendedEnhancement>
-			                <failOnError>true</failOnError>
-			            </configuration>
-			            <goals>
-			                <goal>enhance</goal>
-			            </goals>
-			        </execution>
-			    </executions>
-			</plugin>
-			-->
 		</plugins>
 	</build>
 

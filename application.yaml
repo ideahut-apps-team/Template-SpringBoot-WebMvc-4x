@@ -26,7 +26,7 @@ spring:
         open-in-view: false
     autoconfigure:
         exclude:
-            - org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration            
+            - org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration
             
     ## (SBADMIN)
     boot:
@@ -168,7 +168,7 @@ config:
     #
     foreignKey:
         enableExecution: true
-        asyncExecution: false
+        asyncExecution: true
         dropBeforeCreate: true
         onUpdateAction: true
 
@@ -233,14 +233,13 @@ config:
             standalone:
                 host: '<HOST>'
                 port: '<PORT>'
-                password: '<PASSWORD>'
+                #password: '<PASSWORD>'
                 database: 0
         access:
             type: 0
             standalone:
                 host: '<HOST>'
                 port: '<PORT>'
-                password: '<PASSWORD>'
                 database: 1
                 
     #
@@ -478,8 +477,8 @@ config:
                 - net.ideahut.springboot.entity.replica.ReplicaInfo
                 
                 #
-                # Aktifkan daftar entity di bawah pada saat jalan sebagai native
-                # Package scanning tidak berfungsi di native image.
+                # Aktifkan daftar entity di bawah pada saat jalan sebagai native image
+                # Karena package scanning tidak berfungsi di native image.
                 #
                 
                 # API

@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
@@ -32,12 +33,12 @@ class TrxManagerPrimaryConfig {
 	
 	@Primary
 	@Bean(PREFIX + "EntityManagerFactory")
-	EntityManagerFactory entityManagerFactory(
+	public LocalContainerEntityManagerFactoryBean entityManagerFactory(
 		AppProperties appProperties
-	) throws Exception {
+	) {
 		AppProperties.TrxMain trxMain = appProperties.getTrxManager().getPrimary();
 		AppProperties.TrxAudit trxAudit = ObjectHelper.useOrDefault(trxMain.getAudit(), AppProperties.TrxAudit::new);
-		return HibernateHelper.createEntityManagerFactory(
+		return HibernateHelper.createLocalContainerEntityManagerFactoryBean(
 			TrxDatasource.getDefinition(trxMain.getDatasource()), 
 			trxMain, 
 			trxAudit.getId(), 

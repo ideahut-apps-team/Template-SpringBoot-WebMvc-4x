@@ -95,11 +95,13 @@ public class NativeConfig {
 			"META-INF/services/org.hibernate.bytecode.spi.BytecodeProvider"::equals
 		);
 		NativeImageHelper.beautifyMetadata(metadataFile);
-		try {
-			FileUtils.copyFile(serializationFile, binaryFile);
-		} catch (Exception e) {
-			log.error("Copy", e);
-		}
+		ObjectHelper.callIf(
+			serializationFile.isFile(), 
+			() -> {
+				FileUtils.copyFile(serializationFile, binaryFile);
+				return null;
+			}
+		);
 	}
 	
 }

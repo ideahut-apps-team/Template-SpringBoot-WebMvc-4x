@@ -14,7 +14,6 @@ import net.ideahut.springboot.helper.ObjectHelper;
 import net.ideahut.springboot.helper.ThreadHelper;
 import net.ideahut.springboot.mapper.DataMapper;
 import net.ideahut.springboot.mapper.DataMapperImpl;
-import net.ideahut.springboot.mapper.MapperProperties;
 import net.ideahut.springboot.message.entity.Language;
 import net.ideahut.springboot.message.entity.Message;
 import net.ideahut.springboot.module.ModuleApi;
@@ -25,9 +24,6 @@ import net.ideahut.springboot.serializer.HessianBinarySerializer;
 import net.ideahut.springboot.serializer.JdkBinarySerializer;
 import net.ideahut.springboot.sysparam.entity.SysParam;
 import net.ideahut.springboot.template.app.AppProperties;
-import tools.jackson.databind.DeserializationFeature;
-import tools.jackson.databind.SerializationFeature;
-import tools.jackson.databind.cfg.DateTimeFeature;
 
 @Configuration
 class CommonConfig {
@@ -54,13 +50,7 @@ class CommonConfig {
 	 */
 	@Bean
 	DataMapper dataMapper() {
-		MapperProperties properties = new MapperProperties()
-		.setMapperFeature(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
-		.setMapperFeature(SerializationFeature.FAIL_ON_EMPTY_BEANS, false)
-		.setMapperFeature(DateTimeFeature.WRITE_DATES_AS_TIMESTAMPS, true)
-		.setIncludeNullValue(false)
-		.setFindAndRegisterModules(false);
-		DataMapper dataMapper = new DataMapperImpl(properties);
+		DataMapper dataMapper = new DataMapperImpl();
 		FrameworkHelper.setDefaultDataMapper(dataMapper);
 		return dataMapper;
 	}
