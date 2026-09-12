@@ -153,10 +153,6 @@
   }, {
     "type" : "com.fasterxml.jackson.core.JsonGenerator"
   }, {
-    "type" : "com.fasterxml.jackson.core.Versioned"
-  }, {
-    "type" : "com.fasterxml.jackson.databind.Module"
-  }, {
     "type" : "com.fasterxml.jackson.databind.ObjectMapper"
   }, {
     "type" : "com.fasterxml.jackson.databind.deser.BeanDeserializerModifier[]"
@@ -168,8 +164,6 @@
       "name" : "<init>",
       "parameterTypes" : [ ]
     } ]
-  }, {
-    "type" : "com.fasterxml.jackson.databind.module.SimpleModule"
   }, {
     "type" : "com.fasterxml.jackson.databind.ser.BeanSerializerModifier[]"
   }, {
@@ -188,8 +182,6 @@
     "type" : "com.google.gson.Gson"
   }, {
     "type" : "com.ibm.tx.jta.TransactionManagerFactory"
-  }, {
-    "type" : "com.jayway.jsonpath.DocumentContext"
   }, {
     "type" : "com.lowagie.text.ImgRaw",
     "methods" : [ {
@@ -1544,17 +1536,11 @@
   }, {
     "type" : "com.mysql.cj.jdbc.AbandonedConnectionCleanupThread"
   }, {
-    "type" : "com.mysql.cj.jdbc.ClientPreparedStatement"
-  }, {
     "type" : "com.mysql.cj.jdbc.Driver",
     "methods" : [ {
       "name" : "<init>",
       "parameterTypes" : [ ]
     } ]
-  }, {
-    "type" : "com.mysql.cj.jdbc.exceptions.SQLError"
-  }, {
-    "type" : "com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping"
   }, {
     "type" : "com.mysql.cj.log.StandardLogger",
     "methods" : [ {
@@ -2416,8 +2402,6 @@
       "parameterTypes" : [ ]
     } ]
   }, {
-    "type" : "com.zaxxer.hikari.pool.HikariProxyPreparedStatement"
-  }, {
     "type" : "com.zaxxer.hikari.pool.PoolBase"
   }, {
     "type" : "com.zaxxer.hikari.pool.PoolEntry"
@@ -2427,8 +2411,6 @@
       "name" : "getConnection",
       "parameterTypes" : [ ]
     } ]
-  }, {
-    "type" : "com.zaxxer.hikari.pool.ProxyPreparedStatement"
   }, {
     "type" : "double[]"
   }, {
@@ -4151,9 +4133,6 @@
   }, {
     "type" : "jakarta.persistence.EntityManagerFactory",
     "methods" : [ {
-      "name" : "getCriteriaBuilder",
-      "parameterTypes" : [ ]
-    }, {
       "name" : "getMetamodel",
       "parameterTypes" : [ ]
     }, {
@@ -4503,6 +4482,8 @@
       "name" : "upgrade",
       "parameterTypes" : [ "java.lang.Class" ]
     } ]
+  }, {
+    "type" : "jakarta.servlet.jsp.jstl.core.Config"
   }, {
     "type" : "jakarta.transaction.Transactional"
   }, {
@@ -7474,8 +7455,6 @@
       "parameterTypes" : [ "java.lang.Class" ]
     } ]
   }, {
-    "type" : "java.lang.reflect.AnnotatedParameterizedType"
-  }, {
     "type" : "java.lang.reflect.AnnotatedType"
   }, {
     "type" : "java.lang.reflect.Executable",
@@ -7497,9 +7476,6 @@
     "type" : "java.lang.reflect.Parameter",
     "methods" : [ {
       "name" : "getModifiers",
-      "parameterTypes" : [ ]
-    }, {
-      "name" : "getName",
       "parameterTypes" : [ ]
     }, {
       "name" : "isNamePresent",
@@ -10571,6 +10547,8 @@
       "parameterTypes" : [ ]
     } ]
   }, {
+    "type" : "java.util.concurrent.CompletableFuture"
+  }, {
     "type" : "java.util.concurrent.Executor",
     "methods" : [ {
       "name" : "execute",
@@ -11159,8 +11137,6 @@
     "type" : "net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedMethodReturnType$Dispatcher"
   }, {
     "type" : "net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$ForComponentType$AnnotatedParameterizedType"
-  }, {
-    "type" : "net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$ForTypeArgument$AnnotatedParameterizedType"
   }, {
     "type" : "net.bytebuddy.dynamic.loading.ClassInjector$UsingLookup$MethodHandles"
   }, {
@@ -13531,6 +13507,12 @@
       "name" : "setType",
       "parameterTypes" : [ "net.ideahut.springboot.entity.EntityIdType" ]
     } ]
+  }, {
+    "type" : "net.ideahut.springboot.admin.HelperKafka"
+  }, {
+    "type" : "net.ideahut.springboot.admin.HelperKafka0"
+  }, {
+    "type" : "net.ideahut.springboot.admin.HelperKafka1"
   }, {
     "type" : "net.ideahut.springboot.admin.HelperRole$InAdminRole",
     "methods" : [ {
@@ -43583,8 +43565,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.AutoGenLongIdHardDel$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.AutoGenLongIdHardDel$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.AutoGenLongIdHardDel_"
   }, {
     "type" : "net.ideahut.springboot.template.entity.AutoGenStrIdHardDel",
@@ -43781,8 +43761,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.AutoGenStrIdHardDel$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.AutoGenStrIdHardDel$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.AutoGenStrIdHardDel_"
   }, {
     "type" : "net.ideahut.springboot.template.entity.AutoGenStrIdHardDel__Accessor_1loa3m"
@@ -43966,8 +43944,6 @@
     } ]
   }, {
     "type" : "net.ideahut.springboot.template.entity.AutoGenStrIdSoftDel$HibernateInstantiator"
-  }, {
-    "type" : "net.ideahut.springboot.template.entity.AutoGenStrIdSoftDel$HibernateProxy"
   }, {
     "type" : "net.ideahut.springboot.template.entity.AutoGenStrIdSoftDel_"
   }, {
@@ -44156,12 +44132,6 @@
     } ]
   }, {
     "type" : "net.ideahut.springboot.template.entity.CompositeHardDel$HibernateInstantiator"
-  }, {
-    "type" : "net.ideahut.springboot.template.entity.CompositeHardDel$HibernateProxy",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
   }, {
     "type" : "net.ideahut.springboot.template.entity.CompositeHardDel_"
   }, {
@@ -44369,8 +44339,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.CompositeSoftDel$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.CompositeSoftDel$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.CompositeSoftDel_"
   }, {
     "type" : "net.ideahut.springboot.template.entity.CompositeSoftDel_$Id"
@@ -44540,12 +44508,6 @@
     } ]
   }, {
     "type" : "net.ideahut.springboot.template.entity.EmbeddedHardDel$HibernateInstantiator"
-  }, {
-    "type" : "net.ideahut.springboot.template.entity.EmbeddedHardDel$HibernateProxy",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
   }, {
     "type" : "net.ideahut.springboot.template.entity.EmbeddedHardDel_"
   }, {
@@ -44731,8 +44693,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.EmbeddedSoftDel$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.EmbeddedSoftDel$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.EmbeddedSoftDel_"
   }, {
     "type" : "net.ideahut.springboot.template.entity.EmbeddedWithoutAttribute",
@@ -44900,8 +44860,6 @@
     } ]
   }, {
     "type" : "net.ideahut.springboot.template.entity.EmbeddedWithoutAttribute$HibernateInstantiator"
-  }, {
-    "type" : "net.ideahut.springboot.template.entity.EmbeddedWithoutAttribute$HibernateProxy"
   }, {
     "type" : "net.ideahut.springboot.template.entity.EmbeddedWithoutAttribute_"
   }, {
@@ -45223,8 +45181,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.Information$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.Information$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.InformationLink",
     "fields" : [ {
       "name" : "$$_hibernate_attributeInterceptor"
@@ -45419,8 +45375,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.InformationLink$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.InformationLink$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.InformationLink_"
   }, {
     "type" : "net.ideahut.springboot.template.entity.Information_"
@@ -45584,8 +45538,6 @@
     } ]
   }, {
     "type" : "net.ideahut.springboot.template.entity.IntegerIdWithBytes$HibernateInstantiator"
-  }, {
-    "type" : "net.ideahut.springboot.template.entity.IntegerIdWithBytes$HibernateProxy"
   }, {
     "type" : "net.ideahut.springboot.template.entity.IntegerIdWithBytes_"
   }, {
@@ -45795,8 +45747,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.LongIdJoinComposite$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.LongIdJoinComposite$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.LongIdJoinComposite_"
   }, {
     "type" : "net.ideahut.springboot.template.entity.LongIdJoinComposite__Accessor_6kztpt"
@@ -45983,8 +45933,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.LongIdJoinEmbedded$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.LongIdJoinEmbedded$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.LongIdJoinEmbedded_"
   }, {
     "type" : "net.ideahut.springboot.template.entity.ManualGenStrIdSoftDel",
@@ -46164,8 +46112,6 @@
     } ]
   }, {
     "type" : "net.ideahut.springboot.template.entity.ManualGenStrIdSoftDel$HibernateInstantiator"
-  }, {
-    "type" : "net.ideahut.springboot.template.entity.ManualGenStrIdSoftDel$HibernateProxy"
   }, {
     "type" : "net.ideahut.springboot.template.entity.ManualGenStrIdSoftDel_"
   }, {
@@ -46415,12 +46361,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.Menu$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.Menu$HibernateProxy",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
     "type" : "net.ideahut.springboot.template.entity.MenuId",
     "fields" : [ {
       "name" : "$$_hibernate_attributeInterceptor"
@@ -46648,8 +46588,6 @@
     } ]
   }, {
     "type" : "net.ideahut.springboot.template.entity.MenuRole$HibernateInstantiator"
-  }, {
-    "type" : "net.ideahut.springboot.template.entity.MenuRole$HibernateProxy"
   }, {
     "type" : "net.ideahut.springboot.template.entity.MenuRoleId",
     "fields" : [ {
@@ -46917,12 +46855,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.Role$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.Role$HibernateProxy",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
     "type" : "net.ideahut.springboot.template.entity.Role_"
   }, {
     "type" : "net.ideahut.springboot.template.entity.User",
@@ -47111,8 +47043,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.User$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.User$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.UserDetail",
     "fields" : [ {
       "name" : "$$_hibernate_attributeInterceptor"
@@ -47293,8 +47223,6 @@
   }, {
     "type" : "net.ideahut.springboot.template.entity.UserDetail$HibernateInstantiator"
   }, {
-    "type" : "net.ideahut.springboot.template.entity.UserDetail$HibernateProxy"
-  }, {
     "type" : "net.ideahut.springboot.template.entity.UserDetail_"
   }, {
     "type" : "net.ideahut.springboot.template.entity.UserFavorite",
@@ -47448,8 +47376,6 @@
       "name" : "<init>",
       "parameterTypes" : [ ]
     } ]
-  }, {
-    "type" : "net.ideahut.springboot.template.entity.UserFavorite$HibernateProxy"
   }, {
     "type" : "net.ideahut.springboot.template.entity.UserFavoriteId",
     "fields" : [ {
@@ -49600,6 +49526,8 @@
   }, {
     "type" : "org.apache.kafka.clients.producer.ProducerInterceptor"
   }, {
+    "type" : "org.apache.kafka.common.internals.KafkaFutureImpl"
+  }, {
     "type" : "org.apache.kafka.common.metrics.JmxReporter",
     "methods" : [ {
       "name" : "<init>",
@@ -49786,9 +49714,6 @@
     "type" : "org.hibernate.Session",
     "methods" : [ {
       "name" : "createQuery",
-      "parameterTypes" : [ "jakarta.persistence.criteria.CriteriaQuery" ]
-    }, {
-      "name" : "createQuery",
       "parameterTypes" : [ "java.lang.String" ]
     }, {
       "name" : "merge",
@@ -49807,9 +49732,6 @@
       "parameterTypes" : [ ]
     }, {
       "name" : "createEntityManager",
-      "parameterTypes" : [ ]
-    }, {
-      "name" : "getCriteriaBuilder",
       "parameterTypes" : [ ]
     } ]
   }, {
@@ -49832,8 +49754,6 @@
       "name" : "<init>",
       "parameterTypes" : [ "org.jboss.logging.Logger" ]
     } ]
-  }, {
-    "type" : "org.hibernate.action.internal.EntityUpdateAction"
   }, {
     "type" : "org.hibernate.annotations.Any"
   }, {
@@ -51097,6 +51017,12 @@
   }, {
     "type" : "org.hibernate.bytecode.enhance.spi.EnhancementInfo"
   }, {
+    "type" : "org.hibernate.bytecode.enhance.spi.interceptor.BytecodeInterceptorLogging_$logger",
+    "methods" : [ {
+      "name" : "<init>",
+      "parameterTypes" : [ "org.jboss.logging.Logger" ]
+    } ]
+  }, {
     "type" : "org.hibernate.bytecode.internal.bytebuddy.BytecodeProviderImpl"
   }, {
     "type" : "org.hibernate.bytecode.internal.javassist.FieldHandler"
@@ -51217,11 +51143,7 @@
       "parameterTypes" : [ "org.jboss.logging.Logger" ]
     } ]
   }, {
-    "type" : "org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl"
-  }, {
     "type" : "org.hibernate.engine.jdbc.internal.JdbcServicesImpl"
-  }, {
-    "type" : "org.hibernate.engine.jdbc.internal.ResultSetReturnImpl"
   }, {
     "type" : "org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor"
   }, {
@@ -51237,15 +51159,11 @@
       "parameterTypes" : [ "org.jboss.logging.Logger" ]
     } ]
   }, {
-    "type" : "org.hibernate.engine.jdbc.spi.SqlExceptionHelper"
-  }, {
     "type" : "org.hibernate.engine.jdbc.spi.SqlStatementLogger"
   }, {
     "type" : "org.hibernate.engine.jndi.internal.JndiServiceImpl"
   }, {
     "type" : "org.hibernate.engine.query.internal.NativeQueryInterpreterStandardImpl"
-  }, {
-    "type" : "org.hibernate.engine.spi.ActionQueue"
   }, {
     "type" : "org.hibernate.engine.spi.CompositeOwner",
     "methods" : [ {
@@ -51358,15 +51276,9 @@
   }, {
     "type" : "org.hibernate.engine.spi.SessionFactoryImplementor"
   }, {
-    "type" : "org.hibernate.engine.transaction.internal.TransactionImpl"
-  }, {
     "type" : "org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform"
   }, {
     "type" : "org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver"
-  }, {
-    "type" : "org.hibernate.event.internal.AbstractFlushingEventListener"
-  }, {
-    "type" : "org.hibernate.event.internal.DefaultFlushEventListener"
   }, {
     "type" : "org.hibernate.event.internal.EntityCopyLogging_$logger",
     "methods" : [ {
@@ -51379,8 +51291,6 @@
       "name" : "<init>",
       "parameterTypes" : [ "org.jboss.logging.Logger" ]
     } ]
-  }, {
-    "type" : "org.hibernate.event.service.internal.EventListenerGroupImpl"
   }, {
     "type" : "org.hibernate.event.spi.AutoFlushEventListener[]"
   }, {
@@ -51505,8 +51415,6 @@
   }, {
     "type" : "org.hibernate.event.spi.ReplicateEventListener[]"
   }, {
-    "type" : "org.hibernate.exception.internal.StandardSQLExceptionConverter"
-  }, {
     "type" : "org.hibernate.generator.EventType[]"
   }, {
     "type" : "org.hibernate.internal.CoreMessageLogger_$logger",
@@ -51528,8 +51436,6 @@
       "name" : "<init>",
       "parameterTypes" : [ "org.jboss.logging.Logger" ]
     } ]
-  }, {
-    "type" : "org.hibernate.internal.SessionImpl"
   }, {
     "type" : "org.hibernate.internal.SessionLogging_$logger",
     "methods" : [ {
@@ -51653,10 +51559,6 @@
       "name" : "<init>",
       "parameterTypes" : [ ]
     } ]
-  }, {
-    "type" : "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl"
-  }, {
-    "type" : "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl"
   }, {
     "type" : "org.hibernate.resource.transaction.internal.SynchronizationLogging_$logger",
     "methods" : [ {
@@ -52130,43 +52032,17 @@
   }, {
     "type" : "org.springframework.aop.SpringProxy"
   }, {
-    "type" : "org.springframework.aop.TargetClassAware",
-    "methods" : [ {
-      "name" : "getTargetClass",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"
-  }, {
-    "type" : "org.springframework.aop.framework.Advised",
-    "methods" : [ {
-      "name" : "addAdvisor",
-      "parameterTypes" : [ "org.springframework.aop.Advisor" ]
-    }, {
-      "name" : "getTargetSource",
-      "parameterTypes" : [ ]
-    }, {
-      "name" : "isFrozen",
-      "parameterTypes" : [ ]
-    } ]
+    "type" : "org.springframework.aop.framework.Advised"
   }, {
     "type" : "org.springframework.aop.framework.AopInfrastructureBean"
   }, {
-    "type" : "org.springframework.aop.framework.JdkDynamicAopProxy"
-  }, {
-    "type" : "org.springframework.aop.framework.ProxyConfig",
-    "methods" : [ {
-      "name" : "setProxyTargetClass",
-      "parameterTypes" : [ "boolean" ]
-    } ]
+    "type" : "org.springframework.aop.framework.ProxyConfig"
   }, {
     "type" : "org.springframework.aop.framework.ProxyProcessorSupport",
     "methods" : [ {
       "name" : "setOrder",
       "parameterTypes" : [ "int" ]
     } ]
-  }, {
-    "type" : "org.springframework.aop.framework.ReflectiveMethodInvocation"
   }, {
     "type" : "org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator"
   }, {
@@ -52193,8 +52069,6 @@
       "name" : "afterPropertiesSet",
       "parameterTypes" : [ ]
     } ]
-  }, {
-    "type" : "org.springframework.beans.factory.SmartInitializingSingleton"
   }, {
     "type" : "org.springframework.beans.factory.annotation.Autowired"
   }, {
@@ -52256,14 +52130,6 @@
   }, {
     "type" : "org.springframework.boot.autoconfigure.SpringBootApplication"
   }, {
-    "type" : "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration"
-  }, {
     "type" : "org.springframework.boot.autoconfigure.condition.ConditionalOnBean"
   }, {
     "type" : "org.springframework.boot.autoconfigure.condition.ConditionalOnBooleanProperty"
@@ -52278,31 +52144,9 @@
   }, {
     "type" : "org.springframework.boot.autoconfigure.condition.ConditionalOnProperty"
   }, {
-    "type" : "org.springframework.boot.autoconfigure.condition.ConditionalOnResource"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.condition.ConditionalOnSingleCandidate"
-  }, {
     "type" : "org.springframework.boot.autoconfigure.condition.ConditionalOnThreading"
   }, {
     "type" : "org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.context.LifecycleProperties"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.diagnostics.analyzer.NoSuchBeanDefinitionFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ "org.springframework.beans.factory.BeanFactory" ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.info.ProjectInfoProperties"
   }, {
     "type" : "org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener",
     "methods" : [ {
@@ -52328,51 +52172,7 @@
       "parameterTypes" : [ ]
     } ]
   }, {
-    "type" : "org.springframework.boot.autoconfigure.ssl.BundleContentNotWatchableFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.ssl.FileWatcher"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.ssl.SslBundleRegistrar"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.ssl.SslProperties"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.ssl.SslPropertiesBundleRegistrar"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskExecutionProperties"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ApplicationTaskExecutorAsyncConfigurer"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration"
-  }, {
-    "type" : "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties"
-  }, {
     "type" : "org.springframework.boot.autoconfigure.web.WebProperties"
-  }, {
-    "type" : "org.springframework.boot.availability.ApplicationAvailability"
-  }, {
-    "type" : "org.springframework.boot.availability.ApplicationAvailabilityBean"
   }, {
     "type" : "org.springframework.boot.builder.ParentContextCloserApplicationListener",
     "methods" : [ {
@@ -52413,12 +52213,6 @@
     "type" : "org.springframework.boot.context.config.ConfigDataLocation[]"
   }, {
     "type" : "org.springframework.boot.context.config.ConfigDataNotFoundAction"
-  }, {
-    "type" : "org.springframework.boot.context.config.ConfigDataNotFoundFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
   }, {
     "type" : "org.springframework.boot.context.config.ConfigDataProperties"
   }, {
@@ -52478,125 +52272,7 @@
   }, {
     "type" : "org.springframework.boot.context.properties.EnableConfigurationProperties"
   }, {
-    "type" : "org.springframework.boot.context.properties.IncompatibleConfigurationFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.context.properties.NotConstructorBoundInjectionFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
     "type" : "org.springframework.boot.context.properties.bind.Name"
-  }, {
-    "type" : "org.springframework.boot.data.autoconfigure.web.DataWebAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.data.autoconfigure.web.DataWebProperties"
-  }, {
-    "type" : "org.springframework.boot.diagnostics.FailureAnalyzers",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ "org.springframework.context.ConfigurableApplicationContext" ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.AotInitializerNotFoundFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.BeanCurrentlyInCreationFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ "org.springframework.beans.factory.BeanFactory" ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.BeanDefinitionOverrideFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.BeanNotOfRequiredTypeFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.BindFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.BindValidationFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyNameFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyValueFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ "org.springframework.core.env.Environment" ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.MissingParameterNamesFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.MutuallyExclusiveConfigurationPropertiesFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ "org.springframework.core.env.Environment" ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.NoSuchMethodFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.NoUniqueBeanDefinitionFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ "org.springframework.beans.factory.BeanFactory" ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.PatternParseFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.UnboundConfigurationPropertyFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.diagnostics.analyzer.ValidationExceptionFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
   }, {
     "type" : "org.springframework.boot.env.PropertiesPropertySourceLoader",
     "methods" : [ {
@@ -52609,8 +52285,6 @@
       "name" : "<init>",
       "parameterTypes" : [ ]
     } ]
-  }, {
-    "type" : "org.springframework.boot.hibernate.autoconfigure.HibernateJpaAutoConfiguration"
   }, {
     "type" : "org.springframework.boot.http.converter.autoconfigure.ClientHttpMessageConvertersCustomizer"
   }, {
@@ -52649,12 +52323,6 @@
     "type" : "org.springframework.boot.http.converter.autoconfigure.ServerHttpMessageConvertersCustomizer"
   }, {
     "type" : "org.springframework.boot.io.Base64ProtocolResolver",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.io.ClassPathResourceFilePathResolver",
     "methods" : [ {
       "name" : "<init>",
       "parameterTypes" : [ ]
@@ -52718,36 +52386,10 @@
   }, {
     "type" : "org.springframework.boot.jackson.autoconfigure.XmlMapperBuilderCustomizer"
   }, {
-    "type" : "org.springframework.boot.jdbc.autoconfigure.DataSourceBeanCreationFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ "org.springframework.core.env.Environment" ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.jdbc.autoconfigure.DataSourceTransactionManagerAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.jdbc.autoconfigure.HikariDriverConfigurationFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
     "type" : "org.springframework.boot.jpa.EntityManagerFactoryBuilder",
     "methods" : [ {
       "name" : "<init>",
       "parameterTypes" : [ "org.springframework.orm.jpa.JpaVendorAdapter", "java.util.function.Function", "org.springframework.orm.jpa.persistenceunit.PersistenceUnitManager" ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.jpa.autoconfigure.BootstrapExecutorRequiredFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.jpa.autoconfigure.JpaProperties",
-    "methods" : [ {
-      "name" : "setOpenInView",
-      "parameterTypes" : [ "java.lang.Boolean" ]
     } ]
   }, {
     "type" : "org.springframework.boot.loader.launch.LaunchedClassLoader"
@@ -52776,8 +52418,6 @@
   }, {
     "type" : "org.springframework.boot.logging.logback.RootLogLevelConfigurator"
   }, {
-    "type" : "org.springframework.boot.persistence.autoconfigure.PersistenceExceptionTranslationAutoConfiguration"
-  }, {
     "type" : "org.springframework.boot.servlet.autoconfigure.HttpEncodingAutoConfiguration"
   }, {
     "type" : "org.springframework.boot.servlet.autoconfigure.MultipartAutoConfiguration"
@@ -52796,12 +52436,6 @@
     "type" : "org.springframework.boot.servlet.filter.OrderedCharacterEncodingFilter"
   }, {
     "type" : "org.springframework.boot.servlet.filter.OrderedFilter"
-  }, {
-    "type" : "org.springframework.boot.ssl.DefaultSslBundleRegistry"
-  }, {
-    "type" : "org.springframework.boot.ssl.SslBundleRegistry"
-  }, {
-    "type" : "org.springframework.boot.ssl.SslBundles"
   }, {
     "type" : "org.springframework.boot.support.AnsiOutputApplicationListener",
     "methods" : [ {
@@ -52833,21 +52467,7 @@
       "parameterTypes" : [ ]
     } ]
   }, {
-    "type" : "org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder"
-  }, {
-    "type" : "org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder"
-  }, {
-    "type" : "org.springframework.boot.task.ThreadPoolTaskExecutorBuilder"
-  }, {
-    "type" : "org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder"
-  }, {
     "type" : "org.springframework.boot.tomcat.ConfigurableTomcatWebServerFactory"
-  }, {
-    "type" : "org.springframework.boot.tomcat.ConnectorStartFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
   }, {
     "type" : "org.springframework.boot.tomcat.TomcatProtocolHandlerCustomizer"
   }, {
@@ -52877,59 +52497,21 @@
   }, {
     "type" : "org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory"
   }, {
-    "type" : "org.springframework.boot.transaction.autoconfigure.ExecutionListenersTransactionManagerCustomizer"
-  }, {
-    "type" : "org.springframework.boot.transaction.autoconfigure.TransactionAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.transaction.autoconfigure.TransactionAutoConfiguration$TransactionTemplateConfiguration"
-  }, {
-    "type" : "org.springframework.boot.transaction.autoconfigure.TransactionManagerCustomizationAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.transaction.autoconfigure.TransactionManagerCustomizer"
-  }, {
-    "type" : "org.springframework.boot.transaction.autoconfigure.TransactionManagerCustomizers"
-  }, {
-    "type" : "org.springframework.boot.transaction.autoconfigure.TransactionProperties"
-  }, {
-    "type" : "org.springframework.boot.transaction.jta.autoconfigure.JtaAutoConfiguration"
-  }, {
     "type" : "org.springframework.boot.validation.autoconfigure.JakartaValidationBackgroundPreinitializer",
     "methods" : [ {
       "name" : "<init>",
       "parameterTypes" : [ ]
     } ]
   }, {
-    "type" : "org.springframework.boot.validation.autoconfigure.ValidationAutoConfiguration"
-  }, {
     "type" : "org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter"
   }, {
-    "type" : "org.springframework.boot.web.context.reactive.FilteredReactiveWebContextResourceFilePathResolver",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
     "type" : "org.springframework.boot.web.context.reactive.GenericReactiveWebApplicationContext"
-  }, {
-    "type" : "org.springframework.boot.web.context.servlet.ServletContextResourceFilePathResolver",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.web.error.ErrorPageRegistrar"
   }, {
     "type" : "org.springframework.boot.web.error.ErrorPageRegistry"
   }, {
     "type" : "org.springframework.boot.web.server.AbstractConfigurableWebServerFactory"
   }, {
     "type" : "org.springframework.boot.web.server.ConfigurableWebServerFactory"
-  }, {
-    "type" : "org.springframework.boot.web.server.PortInUseFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
   }, {
     "type" : "org.springframework.boot.web.server.WebServerFactory"
   }, {
@@ -52944,12 +52526,6 @@
     "type" : "org.springframework.boot.web.server.autoconfigure.servlet.ServletWebServerConfiguration"
   }, {
     "type" : "org.springframework.boot.web.server.autoconfigure.servlet.ServletWebServerFactoryCustomizer"
-  }, {
-    "type" : "org.springframework.boot.web.server.context.MissingWebServerFactoryBeanFailureAnalyzer",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
   }, {
     "type" : "org.springframework.boot.web.server.context.ServerPortInfoApplicationContextInitializer",
     "methods" : [ {
@@ -53058,41 +52634,7 @@
   }, {
     "type" : "org.springframework.boot.webmvc.autoconfigure.DispatcherServletRegistrationBean"
   }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.JspTemplateAvailabilityProvider",
-    "methods" : [ {
-      "name" : "<init>",
-      "parameterTypes" : [ ]
-    } ]
-  }, {
     "type" : "org.springframework.boot.webmvc.autoconfigure.WebMvcProperties"
-  }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.error.AbstractErrorController"
-  }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController",
-    "methods" : [ {
-      "name" : "error",
-      "parameterTypes" : [ "jakarta.servlet.http.HttpServletRequest" ]
-    } ]
-  }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.error.DefaultErrorViewResolver"
-  }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration"
-  }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration"
-  }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$ErrorPageCustomizer"
-  }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$StaticView"
-  }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration"
-  }, {
-    "type" : "org.springframework.boot.webmvc.autoconfigure.error.ErrorViewResolver"
-  }, {
-    "type" : "org.springframework.boot.webmvc.error.DefaultErrorAttributes"
-  }, {
-    "type" : "org.springframework.boot.webmvc.error.ErrorAttributes"
-  }, {
-    "type" : "org.springframework.boot.webmvc.error.ErrorController"
   }, {
     "type" : "org.springframework.context.ApplicationContextAware"
   }, {
@@ -53117,10 +52659,6 @@
   }, {
     "type" : "org.springframework.context.EnvironmentAware"
   }, {
-    "type" : "org.springframework.context.Lifecycle"
-  }, {
-    "type" : "org.springframework.context.LifecycleProcessor"
-  }, {
     "type" : "org.springframework.context.ResourceLoaderAware"
   }, {
     "type" : "org.springframework.context.annotation.Bean"
@@ -53134,8 +52672,6 @@
     "type" : "org.springframework.context.annotation.Configuration"
   }, {
     "type" : "org.springframework.context.annotation.ConfigurationClassEnhancer$EnhancedConfiguration"
-  }, {
-    "type" : "org.springframework.context.annotation.EnableAspectJAutoProxy"
   }, {
     "type" : "org.springframework.context.annotation.Import"
   }, {
@@ -53152,8 +52688,6 @@
     "type" : "org.springframework.context.annotation.Scope"
   }, {
     "type" : "org.springframework.context.support.ApplicationObjectSupport"
-  }, {
-    "type" : "org.springframework.context.support.DefaultLifecycleProcessor"
   }, {
     "type" : "org.springframework.core.DecoratingProxy"
   }, {
@@ -53200,15 +52734,7 @@
       "parameterTypes" : [ "org.springframework.core.io.Resource[]" ]
     } ]
   }, {
-    "type" : "org.springframework.core.task.AsyncTaskExecutor"
-  }, {
-    "type" : "org.springframework.core.task.SimpleAsyncTaskExecutor"
-  }, {
-    "type" : "org.springframework.core.task.TaskExecutor"
-  }, {
     "type" : "org.springframework.dao.DataAccessException"
-  }, {
-    "type" : "org.springframework.dao.support.PersistenceExceptionTranslationInterceptor"
   }, {
     "type" : "org.springframework.data.annotation.QueryAnnotation"
   }, {
@@ -55505,10 +55031,6 @@
   }, {
     "type" : "org.springframework.data.domain.package-info"
   }, {
-    "type" : "org.springframework.data.geo.GeoJacksonModule"
-  }, {
-    "type" : "org.springframework.data.geo.GeoModule"
-  }, {
     "type" : "org.springframework.data.jpa.mapping.JpaMetamodelMappingContext"
   }, {
     "type" : "org.springframework.data.jpa.repository.JpaContext"
@@ -55611,8 +55133,6 @@
       "parameterTypes" : [ ]
     } ]
   }, {
-    "type" : "org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor"
-  }, {
     "type" : "org.springframework.data.jpa.repository.support.DefaultJpaContext"
   }, {
     "type" : "org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension"
@@ -55644,12 +55164,6 @@
       "name" : "deleteById",
       "parameterTypes" : [ "java.lang.Object" ]
     }, {
-      "name" : "findAll",
-      "parameterTypes" : [ "org.springframework.data.domain.Pageable" ]
-    }, {
-      "name" : "findById",
-      "parameterTypes" : [ "java.lang.Object" ]
-    }, {
       "name" : "save",
       "parameterTypes" : [ "java.lang.Object" ]
     } ]
@@ -55672,6 +55186,9 @@
   }, {
     "type" : "org.springframework.data.redis.connection.DefaultedRedisConnection",
     "methods" : [ {
+      "name" : "getClientList",
+      "parameterTypes" : [ ]
+    }, {
       "name" : "info",
       "parameterTypes" : [ ]
     } ]
@@ -56169,7 +55686,10 @@
       "parameterTypes" : [ "java.util.Collection" ]
     } ]
   }, {
-    "type" : "org.springframework.data.redis.core.types.RedisClientInfo"
+    "type" : "org.springframework.data.redis.core.types.RedisClientInfo",
+    "fields" : [ {
+      "name" : "clientProperties"
+    } ]
   }, {
     "type" : "org.springframework.data.repository.CrudRepository",
     "methods" : [ {
@@ -56375,50 +55895,6 @@
       "name" : "toStreamable",
       "parameterTypes" : [ "java.util.stream.Collector" ]
     } ]
-  }, {
-    "type" : "org.springframework.data.web.OffsetScrollPositionArgumentResolver"
-  }, {
-    "type" : "org.springframework.data.web.OffsetScrollPositionHandlerMethodArgumentResolver"
-  }, {
-    "type" : "org.springframework.data.web.OffsetScrollPositionHandlerMethodArgumentResolverSupport"
-  }, {
-    "type" : "org.springframework.data.web.PageableArgumentResolver"
-  }, {
-    "type" : "org.springframework.data.web.PageableHandlerMethodArgumentResolver"
-  }, {
-    "type" : "org.springframework.data.web.PageableHandlerMethodArgumentResolverSupport"
-  }, {
-    "type" : "org.springframework.data.web.SortArgumentResolver"
-  }, {
-    "type" : "org.springframework.data.web.SortHandlerMethodArgumentResolver"
-  }, {
-    "type" : "org.springframework.data.web.SortHandlerMethodArgumentResolverSupport"
-  }, {
-    "type" : "org.springframework.data.web.config.EnableSpringDataWebSupport"
-  }, {
-    "type" : "org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer"
-  }, {
-    "type" : "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar"
-  }, {
-    "type" : "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar$ProjectingArgumentResolverBeanPostProcessor"
-  }, {
-    "type" : "org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer"
-  }, {
-    "type" : "org.springframework.data.web.config.SpringDataJackson3Configuration"
-  }, {
-    "type" : "org.springframework.data.web.config.SpringDataJackson3Configuration$PageModule"
-  }, {
-    "type" : "org.springframework.data.web.config.SpringDataJackson3Modules"
-  }, {
-    "type" : "org.springframework.data.web.config.SpringDataJacksonConfiguration"
-  }, {
-    "type" : "org.springframework.data.web.config.SpringDataJacksonConfiguration$PageModule"
-  }, {
-    "type" : "org.springframework.data.web.config.SpringDataJacksonModules"
-  }, {
-    "type" : "org.springframework.data.web.config.SpringDataWebConfiguration"
-  }, {
-    "type" : "org.springframework.data.web.config.SpringDataWebSettings"
   }, {
     "type" : "org.springframework.format.FormatterRegistry"
   }, {
@@ -56857,8 +56333,6 @@
   }, {
     "type" : "org.springframework.orm.jpa.SharedEntityManagerCreator"
   }, {
-    "type" : "org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator"
-  }, {
     "type" : "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo",
     "methods" : [ {
       "name" : "excludeUnlistedClasses",
@@ -56922,10 +56396,6 @@
       "parameterTypes" : [ ]
     } ]
   }, {
-    "type" : "org.springframework.orm.jpa.vendor.HibernateJpaDialect"
-  }, {
-    "type" : "org.springframework.scheduling.annotation.AsyncConfigurer"
-  }, {
     "type" : "org.springframework.scheduling.concurrent.ExecutorConfigurationSupport",
     "methods" : [ {
       "name" : "setVirtualThreads",
@@ -56958,25 +56428,11 @@
   }, {
     "type" : "org.springframework.transaction.annotation.Transactional"
   }, {
-    "type" : "org.springframework.transaction.interceptor.TransactionAspectSupport"
-  }, {
-    "type" : "org.springframework.transaction.interceptor.TransactionInterceptor"
-  }, {
     "type" : "org.springframework.transaction.interceptor.TransactionalProxy"
-  }, {
-    "type" : "org.springframework.transaction.support.AbstractPlatformTransactionManager"
-  }, {
-    "type" : "org.springframework.transaction.support.DefaultTransactionDefinition"
-  }, {
-    "type" : "org.springframework.transaction.support.TransactionOperations"
-  }, {
-    "type" : "org.springframework.transaction.support.TransactionTemplate"
   }, {
     "type" : "org.springframework.util.AntPathMatcher"
   }, {
     "type" : "org.springframework.util.ConcurrentReferenceHashMap$Segment[]"
-  }, {
-    "type" : "org.springframework.util.CustomizableThreadCreator"
   }, {
     "type" : "org.springframework.util.PathMatcher"
   }, {
@@ -57044,8 +56500,6 @@
   }, {
     "type" : "org.springframework.web.context.request.async.WebAsyncManager"
   }, {
-    "type" : "org.springframework.web.context.support.ServletContextResource"
-  }, {
     "type" : "org.springframework.web.context.support.WebApplicationObjectSupport"
   }, {
     "type" : "org.springframework.web.cors.CorsConfigurationSource"
@@ -57099,8 +56553,6 @@
   }, {
     "type" : "org.springframework.web.method.support.CompositeUriComponentsContributor"
   }, {
-    "type" : "org.springframework.web.method.support.HandlerMethodArgumentResolver"
-  }, {
     "type" : "org.springframework.web.method.support.InvocableHandlerMethod"
   }, {
     "type" : "org.springframework.web.method.support.UriComponentsContributor"
@@ -57146,8 +56598,6 @@
     "type" : "org.springframework.web.servlet.LocaleResolver"
   }, {
     "type" : "org.springframework.web.servlet.RequestToViewNameTranslator"
-  }, {
-    "type" : "org.springframework.web.servlet.View"
   }, {
     "type" : "org.springframework.web.servlet.ViewResolver"
   }, {
@@ -57289,8 +56739,6 @@
   }, {
     "type" : "org.springframework.web.servlet.support.WebContentGenerator"
   }, {
-    "type" : "org.springframework.web.servlet.view.BeanNameViewResolver"
-  }, {
     "type" : "org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator"
   }, {
     "type" : "org.springframework.web.servlet.view.ViewResolverComposite"
@@ -57303,13 +56751,9 @@
   }, {
     "type" : "org.wildfly.transaction.client.ContextTransactionManager"
   }, {
-    "type" : "org.xmlbeam.XBProjector"
-  }, {
     "type" : "org.yaml.snakeyaml.Yaml"
   }, {
     "type" : "reactor.core.publisher.Flux"
-  }, {
-    "type" : "reactor.core.publisher.Mono"
   }, {
     "type" : "reactor.core.scheduler.Schedulers"
   }, {
@@ -62926,10 +62370,6 @@
     }
   }, {
     "type" : {
-      "proxy" : [ "net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$ForTypeArgument$AnnotatedParameterizedType" ]
-    }
-  }, {
-    "type" : {
       "proxy" : [ "net.bytebuddy.dynamic.loading.ClassInjector$UsingLookup$MethodHandles" ]
     }
   }, {
@@ -63117,15 +62557,8 @@
   }, {
     "type" : {
       "lambda" : {
-        "declaringClass" : "org.springframework.boot.data.autoconfigure.web.DataWebAutoConfiguration",
-        "interfaces" : [ "org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer" ]
-      }
-    }
-  }, {
-    "type" : {
-      "lambda" : {
-        "declaringClass" : "org.springframework.boot.data.autoconfigure.web.DataWebAutoConfiguration",
-        "interfaces" : [ "org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer" ]
+        "declaringClass" : "org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter",
+        "interfaces" : [ "org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter" ]
       }
     }
   } ],
@@ -63871,8 +63304,6 @@
   },
   "serialization" : [ {
     "type" : "[B"
-  }, {
-    "type" : "byte[]"
   }, {
     "type" : "java.io.Externalizable"
   }, {
