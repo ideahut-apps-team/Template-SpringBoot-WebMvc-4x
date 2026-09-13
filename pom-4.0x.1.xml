@@ -118,10 +118,6 @@
 			<groupId>tools.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>tools.jackson.datatype</groupId>
-			<artifactId>jackson-datatype-hibernate7</artifactId>
-		</dependency>
 
 
 		<!-- HESSIAN -->

@@ -62303,8 +62303,6 @@
   }, {
     "type" : "tools.jackson.dataformat.yaml.YAMLMapper"
   }, {
-    "type" : "tools.jackson.datatype.hibernate7.Hibernate7Module"
-  }, {
     "type" : {
       "proxy" : [ "jakarta.persistence.EntityManager", "org.springframework.orm.jpa.EntityManagerProxy" ]
     }
