@@ -35,7 +35,7 @@
         <version.commons-io>2.21.0</version.commons-io>
         <version.fory>1.6.1</version.fory>
         <version.hessian>4.0.66</version.hessian>
-        <version.ideahut>26.09.09</version.ideahut>
+        <version.ideahut>26.09.16</version.ideahut>
         <version.jakarta.mail>2.0.2</version.jakarta.mail>
         <version.jasperreports>6.21.5</version.jasperreports>
         <version.jbcrypt>0.4</version.jbcrypt>
