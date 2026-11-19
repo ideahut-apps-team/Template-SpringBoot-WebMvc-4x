@@ -11,8 +11,6 @@ debug: false
 spring:
     application:
         name: template-springboot-mvc-4x
-    quartz:
-        auto-startup: false
     servlet:
         multipart:
             max-request-size: 32MB # total request size
@@ -874,7 +872,7 @@ config:
                     maxLifetime:
                         timeUnit: SECONDS
                         value: 1800
-                    poolName: PrimaryMainPool
+                    poolName: 'PrimaryMainPool'
                     enableVirtualThread: true
                 agroal:
                     initialSize: 10
@@ -972,7 +970,7 @@ config:
                 datasource:
                     type: HIKARI
                     hikari:
-                        poolName: PrimaryAuditPool
+                        poolName: 'PrimaryAuditPool'
                         enableVirtualThread: true
                 settings:
                     hibernate:
@@ -994,7 +992,7 @@ config:
                     maxLifetime:
                         timeUnit: SECONDS
                         value: 1800
-                    poolName: SecondaryMainPool
+                    poolName: 'SecondaryMainPool'
                     enableVirtualThread: true
             settings:
                 hibernate:
@@ -1011,7 +1009,7 @@ config:
                 datasource:
                     type: HIKARI
                     hikari:
-                        poolName: SecondaryAuditPool
+                        poolName: 'SecondaryAuditPool'
                         enableVirtualThread: true
                 settings:
                     hibernate:
